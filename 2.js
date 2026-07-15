@@ -120,7 +120,7 @@ function createStyle() {
       justify-content: center;
       box-sizing: border-box;
       padding: 10px;
-      font-family: 'Asimon', 'Rubik', Arial, Helvetica, sans-serif;
+      font-family: asimon-aaa-400, sans-serif;
     }
 
     @media (max-width: 1100px) {
