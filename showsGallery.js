@@ -63,6 +63,9 @@ function createCard(show) {
   img.alt = show.title;
   imageWrap.appendChild(img);
 
+  const footer = document.createElement('div');
+  footer.className = 'sg-footer';
+
   const title = document.createElement('h3');
   title.className = 'sg-title';
   title.textContent = show.title;
@@ -72,9 +75,11 @@ function createCard(show) {
   button.href = show.link;
   button.textContent = BUTTON_TEXT;
 
+  footer.appendChild(title);
+  footer.appendChild(button);
+
   card.appendChild(imageWrap);
-  card.appendChild(title);
-  card.appendChild(button);
+  card.appendChild(footer);
 
   return card;
 }
@@ -105,10 +110,12 @@ function createStyle() {
       grid-template-columns: repeat(5, 1fr);
       gap: 20px;
       width: 100%;
-      height: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+      justify-content: center;
       box-sizing: border-box;
       padding: 10px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Asimon', 'Rubik', Arial, Helvetica, sans-serif;
     }
 
     @media (max-width: 1100px) {
@@ -159,28 +166,41 @@ function createStyle() {
       display: block;
     }
 
+    .sg-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 14px 16px;
+    }
+
     .sg-title {
-      margin: 14px 12px 6px 12px;
-      font-size: 17px;
+      margin: 0;
+      font-size: 16px;
       font-weight: 700;
       color: #1c2b36;
-      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .sg-button {
-      margin: 8px 0 16px 0;
-      padding: 10px 22px;
-      background-color: #2a5d8f;
+      flex-shrink: 0;
+      padding: 9px 20px;
+      background-color: #EE1D17;
       color: #ffffff;
       text-decoration: none;
       border-radius: 999px;
       font-size: 14px;
       font-weight: 600;
+      white-space: nowrap;
       transition: background-color 0.2s ease;
     }
 
     .sg-button:hover {
-      background-color: #1e4569;
+      background-color: #c9160f;
     }
   `;
   return style;
