@@ -19,28 +19,33 @@
 const SHOWS = [
   {
     title: 'הופעת להקה',
-    image: 'https://static.wixstatic.com/media/5559d0_1fd08c917a8543328e1af7166228aef9~mv2.jpeg',
+    image:
+      'https://static.wixstatic.com/media/5559d0_1fd08c917a8543328e1af7166228aef9~mv2.jpeg',
     link: '/הופעת-להקה',
   },
   {
     title: 'הופעת סולו',
-    image: 'https://placehold.co/500x350?text=הופעת+סולו',
+    image:
+      'https://static.wixstatic.com/media/5559d0_cbbee65906ef4f5f8ea036fb5e71a11b~mv2.jpeg',
     link: '/הופעת-סולו',
   },
   {
     title: 'עם בועז כהן',
-    image: 'wix:image://v1/5559d0_83d437203d31464dac0b84de8325f5ba~mv2.jpeg/image10.jpeg#originWidth=886&originHeight=591',
-    link: '/show-3',
+    image:
+      'https://static.wixstatic.com/media/5559d0_83d437203d31464dac0b84de8325f5ba~mv2.jpeg',
+    link: '/משה-בן-יוחנה-ובועז-כהן',
   },
   {
-    title: 'מופע 4',
-    image: 'https://placehold.co/500x350?text=מופע+4',
-    link: '/show-4',
+    title: 'עם אשכול נבו',
+    image:
+      'https://static.wixstatic.com/media/5559d0_2c107f92609f44c98218b7d2e5c5bddc~mv2.jpeg',
+    link: '/משה-בן-יוחנה-ואשכול-נבו',
   },
   {
-    title: 'מופע 5',
-    image: 'https://placehold.co/500x350?text=מופע+5',
-    link: '/show-5',
+    title: 'הופעת סלון',
+    image:
+      'https://static.wixstatic.com/media/5559d0_3b5b284dbeb742779c0954269b8d579d~mv2.jpeg',
+    link: '/הופעת-סלון',
   },
 ];
 
