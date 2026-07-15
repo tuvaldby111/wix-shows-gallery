@@ -28,8 +28,8 @@ const SHOWS = [
     link: '/הופעת-סולו',
   },
   {
-    title: 'מופע 3',
-    image: 'https://placehold.co/500x350?text=מופע+3',
+    title: 'עם בועז כהן',
+    image: 'wix:image://v1/5559d0_83d437203d31464dac0b84de8325f5ba~mv2.jpeg/image10.jpeg#originWidth=886&originHeight=591',
     link: '/show-3',
   },
   {
