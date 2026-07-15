@@ -19,7 +19,7 @@
 const SHOWS = [
   {
     title: 'הופעת להקה',
-    image: 'https://placehold.co/500x350?text=הופעת+להקה',
+    image: 'https://static.wixstatic.com/media/5559d0_1fd08c917a8543328e1af7166228aef9~mv2.jpeg',
     link: '/הופעת-להקה',
   },
   {
